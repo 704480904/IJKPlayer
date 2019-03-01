@@ -82,6 +82,14 @@ public class SampleMediaListFragment extends Fragment {
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear5/prog_index.m3u8", "bipbop advanced 1920x1080 @ 2 Mbps");
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/gear0/prog_index.m3u8", "bipbop advanced 22.050Hz stereo @ 40 kbps");
         mAdapter.addItem("http://liveal.quanmin.tv/live/6291546_quanmin720.flv", "bipbop advanced 22.050Hz stereo @ 40 kbps");
+        mAdapter.addItem("rtmp://video.baisha165.com/live/tablew01hd","tablew01hd");
+        mAdapter.addItem("rtmp://video.baisha165.com/live/tablew02hd","tablew02hd");
+        mAdapter.addItem("rtmp://video.baisha165.com/live/tablew03hd","tablew03hd");
+        mAdapter.addItem("rtmp://video.baisha165.com/live/tablew04hd","tablew04hd");
+        mAdapter.addItem("rtmp://video.baisha165.com/live/tablew05hd","tablew05hd");
+        mAdapter.addItem("rtmp://video.baisha165.com/live/tablew06hd","tablew06hd");
+        mAdapter.addItem("rtmp://video.baisha165.com/live/tablew07hd","tablew07hd");
+        mAdapter.addItem("rtmp://video.baisha165.com/live/tablew08hd","tablew08hd");
     }
 
     final class SampleMediaItem {
